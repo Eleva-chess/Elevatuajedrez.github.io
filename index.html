@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleva tu ajedrez</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container d-lg-flex justify-content-lg-between">
+            <a class="navbar-brand mx-lg-0 mx-auto" href="#"><img src="img/logo.png" alt="Logo de la Academia"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programas.html"><i class="fas fa-images"></i> Programas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials"><i class="fas fa-comments"></i> Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coaches"><i class="fas fa-chess-knight"></i> Entrenadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses"><i class="fas fa-chess"></i> Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contacto</a>
+                    </li>
+                    <li class="nav-item flip-container" onclick="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <!-- Contenido del frente de la tarjeta -->
+                                <a class="nav-link" href="#news"><i class="fas fa-newspaper"></i> Noticias</a>
+                            </div>
+                            <div class="back">
+                                <!-- Contenido del reverso de la tarjeta -->
+                                <a href="https://octopuschess.com/" class="navbar-brand ml-auto logo-button">
+                                    <img src="img/logo-dark.svg" alt="Logo Horizontal" class="logo-image">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<header class="text-white text-center py-5 bg-dark" style="font-family: 'Montserrat', sans-serif;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6 text-lg-left text-center">
+                <h1 class="display-4 animate__animated animate__fadeInDown">Eleva Tu Ajedrez Con Nuestro Entrenamiento Sistemátizado</h1>
+                <p class="lead animate__animated animate__fadeInUp">Un ecosistema de entrenadores profesionales capacitados y equipados de  herramientas de análisis, seguimiento y control que potenciarán tu rendimiento ajedrecístico.</p>
+                <a href="javascript:void(0);" onclick="Calendly.showPopupWidget('https://calendly.com/jmecheverrig-clasesdeajedrez/clase-personalizada-ajedrez');return false;" class="btn btn-primary animate__animated animate__fadeInUp">AGENDA TU CITA GRATIS
+                </a>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img src="img/imagen.png" alt="Imagen descriptiva" class="img-fluid animate__animated animate__fadeInRight">
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Sección de Cards -->
+    <section class="py-5 animate__animated animate__fadeIn mt-5">
+        <div class="container">
+            <h2></h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col">
+                    <div class="card h-100 card-spacing">
+                        <div class="card-img-top img-isometric">
+                            <img src="img/ico1.png" alt="Ajedrez Formativo">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ajedrez Formativo</h5>
+                            <p class="card-text">Diviértete, socializa y mejora tu ajedrez</p>
+                            <a href="programas.html#programa1-tab" class="btn btn-success">
+                                <i class="fas fa-rocket"></i> Descubre más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-spacing">
+                        <div class="card-img-top img-isometric">
+                            <img src="img/ico2.png" alt="Ajedrez de Rendimiento">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ajedrez de Rendimiento</h5>
+                            <p class="card-text">Entrena sistemáticamente y compite al máximo nivel</p>
+                            <a href="programas.html#programa2-tab" class="btn btn-success">
+                                <i class="fas fa-rocket"></i> Descubre más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-spacing">
+                        <div class="card-img-top img-isometric">
+                            <img src="img/ico3.png" alt="Ajedrez para Discapacidad">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ajedrez para Discapacidad</h5>
+                            <p class="card-text">Ajedrez sin límites, aprende, diviértete y compite</p>
+                            <a href="pagina_destino_3.html" class="btn btn-success">
+                                <i class="fas fa-rocket"></i> Descubre más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-spacing">
+                        <div class="card-img-top img-isometric">
+                            <img src="img/ico4.png" alt="Ajedrez para Empresas">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ajedrez para Empresas</h5>
+                            <p class="card-text">Descripción del servicio de Ajedrez para Empresas.</p>
+                            <a href="pagina_destino_4.html" class="btn btn-success">
+                                <i class="fas fa-rocket"></i> Descubre más
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Sección de Entrenadores -->
+    <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-8 col-lg-6">
+            <!-- Section Heading-->
+            <div class="section_heading text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <h3>Nuestro Equipo<span></span></h3>
+              <p>Entrenadores profesionales</p>
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="img/foto2.jpg" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>FM Faiber Lotero</h6>
+                <p class="designation">Entrenador Olimpico - FT</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="img/foto3.jpg" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>IM Wilfredo Sariego</h6>
+                <p class="designation">Entrenador Olimpico - FT</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="img/foto.png" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>AIM Jose Miguel Echeverri</h6>
+                <p class="designation">Entrenador FIDE - FI</p>
+              </div>
+            </div>
+          </div>
+          <!-- Single Advisor-->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+              <!-- Team Thumb-->
+              <div class="advisor_thumb"><img src="img/foto4.jpg" alt="">
+                <!-- Social Info-->
+                <div class="social-info"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+              </div>
+              <!-- Team Details-->
+              <div class="single_advisor_details_info">
+                <h6>Jhon Sebastian Hernandez</h6>
+                <p class="designation">Psicologo</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <!-- Galería -->
+    <section id="gallery" class="py-0">
+        <div class="container">
+            <h2 class="text-center">Galería</h2>
+            <div class="gallery-wrap">
+                <div class="item item-1"></div>
+                <div class="item item-2"></div>
+                <div class="item item-3"></div>
+                <div class="item item-4"></div>
+                <div class="item item-5"></div>
+            </div>
+        </div>
+    </section>
+            <!-- Sección Acerca de Nosotros y Testimonios -->
+            <section id="about" class="py-0">
+                <div class="container">
+                    <h2 class="text-center">Acerca de Nosotros</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="img/logo.png" alt="Imagen sobre nosotros" class="img-fluid rounded-circle mb-0">
+                            <h3>Nuestro Objetivo</h3>
+                            <p>Bienvenidos a Eleva tu ajedrez, pioneros en la evolución del entrenamiento de ajedrez. Utilizamos tecnología avanzada para medir y controlar todas las variables clave del juego. Nuestro equipo altamente capacitado ofrece una experiencia de entrenamiento personalizada para elevar tu ajedrez al siguiente nivel. Únete a nosotros y prepárate para un futuro brillante en el mundo del ajedrez.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <!-- Sección de Testimonios -->
+                            <h3>Testimonios</h3>
+                            <div class="card">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>"Este es el mejor lugar para aprender ajedrez."</p>
+                                        <footer class="blockquote-footer">Juan Pérez</footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="card mt-0">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>"He mejorado mucho mi juego gracias a sus lecciones."</p>
+                                        <footer class="blockquote-footer">María Rodríguez</footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="card mt-0">
+                                <div class="card-body">
+                                    <blockquote class="blockquote mb-0">
+                                        <p>"Recomiendo este lugar a todos los amantes del ajedrez."</p>
+                                        <footer class="blockquote-footer">Carlos López</footer>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <!-- Sección de Contacto -->
+    <section class="py-0">
+        <div class="container">
+            <h2><i class="fas fa-envelope-open-text"></i> Contacto</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name"><i class="fas fa-user"></i> Nombre</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message"><i class="fas fa-comment-dots"></i> Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Derechos de autor &copy; 2023 Eleva tu ajedrez</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>

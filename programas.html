@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleva tu ajedrez</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo de la Academia" ></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programas.html"><i class="fas fa-images"></i> Programas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials"><i class="fas fa-comments"></i> Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#coaches"><i class="fas fa-chess-knight"></i> Entrenadores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#courses"><i class="fas fa-chess"></i> Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contacto</a>
+                    </li>
+                    <li class="nav-item flip-container" onclick="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <!-- Contenido del frente de la tarjeta -->
+                                <a class="nav-link" href="#news"><i class="fas fa-newspaper"></i> Noticias</a>
+                            </div>
+                            <div class="back">
+                                <!-- Contenido del reverso de la tarjeta -->
+                                <a href="https://octopuschess.com/" class="navbar-brand ml-auto logo-button">
+                                    <img src="img/logo-dark.svg" alt="Logo Horizontal" class="logo-image">
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+        <div class="container mt-5">
+            <h1>Nuestros Programas</h1>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" id="programa1-tab" data-toggle="tab" href="#programa1">
+                        <i class="fas fa-chess"></i> Ajedrez Formativo
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="programa2-tab" data-toggle="tab" href="#programa2">
+                        <i class="fas fa-chess-knight"></i> Ajedrez de Rendimiento
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="programa3-tab" data-toggle="tab" href="#programa3">
+                        <i class="fas fa-chess-board"></i> Ajedrez para Discapacidad
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="programa4-tab" data-toggle="tab" href="#programa4">
+                        <i class="fas fa-chess-rook"></i> Ajedrez para Empresas
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="programa1">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <p class="text-justify">Este programa está pensado para los aficionados al ajedrez, que por diferentes razones no pueden o no desean dedicarse a la alta competitividad, solo quieren disfrutar del ajedrez,  tener un aprendizaje general, mejorar un poco el nivel, emplear el deporte ciencia como gimnasio mental  y socializar con otros aficionados al juego ciencia. El compromiso es invertir de 30 minutos a 2 horas diarias de estudio y práctica deliberada, lo que te permitirá aumentar tu nivel de juego de forma gradual y constante. Se estima que podrás subir entre 50 y 100 puntos de Elo por año, aunque esto puede variar según tu nivel inicial, talento, edad, salud y estilo de vida.
+                            </p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/ico1.png" alt="Imagen del Programa 1" class="img-fluid programa-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="programa2">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <p class="text-justify">Este programa está dirigido a quienes aspiran a la alta competencia y quieren alcanzar su máximo potencial en el ajedrez. El compromiso es de entre 2 a 8 horas diarias de estudio y práctica intensiva, siguiendo al pie de la letra las indicaciones de los entrenadores y el plan de entrenamiento. Se requiere mucha disciplina, dedicación, tiempo y pasión por el ajedrez. Con este programa, podrás aumentar tu nivel de juego de forma notable. Se estima que podrás subir entre 100 y 200 puntos de Elo por año y tendrás un nivel  competitivo permanentemente, esto puede variar según tu nivel inicial, talento, edad, tu salud y estilo de vida. Si quieres ingresar a este programa, deberás estar dispuesto a cumplir con un riguroso proceso de entrenamiento, ya que es la única forma de que la academia pueda garantizar los resultados esperados y el logro de las metas.
+                                Contamos con las herramientas tecnológicas para monitorizar el cumplimiento de las métricas.
+                                Federaciones
+                                </p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/ico2.png" alt="Imagen del Programa 2" class="img-fluid programa-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="programa3">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <p class="text-justify">Este programa está diseñado para quienes tienen alguna discapacidad física y/o sensorial, y quieren disfrutar del ajedrez como una actividad lúdica, educativa, terapéutica o competitiva. El compromiso es de 30 minutos a 2 horas diarias de estudio y práctica adaptada, utilizando recursos didácticos especiales, como tableros y piezas táctiles o en braille, relojes, música, libros, etc. El ajedrez puede aportar muchos beneficios a las personas con discapacidad, como mejorar la memoria, la lógica, la concentración, la creatividad, la autoestima, la comunicación y la integración social. Con este programa, podrás aprender los principios y estrategias del ajedrez, divertirte con el juego, y participar en eventos y torneos inclusivos. Este programa respeta tu ritmo y nivel de aprendizaje, y te ofrece un ambiente de respeto, confianza y amistad.</p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/ico3.png" alt="Imagen del Programa 3" class="img-fluid programa-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="programa4">
+                    <div class="row no-gutters">
+                        <div class="col-md-8">
+                            <p class="text-justify">Este programa está dirigido a las empresas que quieren ofrecer el ajedrez como una actividad deportiva y cultural a sus empleados, para mejorar su desempeño cognitivo, su productividad, su ambiente laboral y su bienestar emocional. El compromiso es de mínimo 1 a 2 horas semanales de estudio y práctica lúdica, siguiendo un método de enseñanza que relaciona los principios y estrategias del ajedrez con las habilidades y competencias requeridas en el mundo empresarial. El ajedrez puede aportar muchos beneficios a los trabajadores, como mejorar el pensamiento estratégico, la toma de decisiones, la concentración, la creatividad, la autoestima, la comunicación, la integración social, la tolerancia a la frustración y el manejo del estrés. Con este programa, podrás ofrecer a tus empleados una actividad divertida, educativa y terapéutica, que les permitirá desarrollar su potencial y aumentar su satisfacción laboral. Además, podrás mejorar el nivel ajedrecístico de tus empleados, formar equipos y competir en campeonatos empresariales locales e internacionales, lo que fomentará el espíritu de equipo, la sana competencia y el orgullo corporativo.</p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/ico4.png" alt="Imagen del Programa 4" class="img-fluid programa-img w-200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Programa Especial: ElevApps -->
+        <div class="mt-1 ml-3 p-5">
+            <h2>ElevApps</h2>
+            <p>Es un servicio de aplicaciones de ajedrez que facilita el trabajo de los entrenadores y deportistas. Con ElevApps, podrás monitorear tu entrenamiento y tu nivel de juego, mediante herramientas de seguimiento y control que analizan tus datos y tu curva de crecimiento. ElevApps te permite identificar tus puntos fuertes y débiles, y mejorarlos con recursos didácticos que se ajustan a tus objetivos y competencias. Está creado por un equipo experto en programación y en inteligencia artificial, que usan las nuevas tecnologías para brindarte una experiencia de aprendizaje y diversión óptima. Con ElevApps, podrás elevar tu ajedrez al máximo.</p>
+
+            <div class="row">
+                <!-- Proyecto 1: Gestor de Clases y Pagos -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="img/ico1.png" class="card-img-top" alt="Imagen del Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestor de Clases y Pagos</h5>
+                            <p class="card-text">Este proyecto es un sistema de gestión de clases y pagos.</p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2: Traducción de Archivos PGN -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="img/ico2.png" class="card-img-top" alt="Imagen del Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Traducción de Archivos PGN</h5>
+                            <p class="card-text">Este proyecto se centra en la traducción de archivos PGN.</p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 3: Servicio de Informes y Curvas de Crecimiento Automáticos -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="img/ico3.png" class="card-img-top" alt="Imagen del Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio de Informes y Curvas de Crecimiento Automáticos</h5>
+                            <p class="card-text">Este proyecto ofrece un servicio de generación automática de informes y curvas de crecimiento.</p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Proyecto 4: Entrenador IA -->
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="img/ico4.png" class="card-img-top" alt="Imagen del Proyecto 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Entrenador IA</h5>
+                            <p class="card-text">Este proyecto es un entrenador de inteligencia artificial.</p>
+                            <a href="#" class="btn btn-primary">Agenda tu cita</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/javascript.js"></script>
+</body>
+</html>
