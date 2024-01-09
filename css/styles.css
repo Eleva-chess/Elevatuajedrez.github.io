@@ -22,9 +22,11 @@ body {
   width: 100%;
   z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
 }
-
+.navbar div {
+  padding: 0;
+}
 .navbar-brand img {
-  max-height: 70px;
+  max-height: 110px;
   padding-top: 0px;
   padding-bottom: 5px;
   transition: transform 0.3s; /* Agregado */
@@ -94,8 +96,8 @@ header .container .row .col-12.col-lg-6 {
   height: 100%; /* Aseguramos que el contenedor de la imagen tenga una altura definida */
 }
 
-header img {
-  width: 100%;
+header img.img-header {
+  width: 800px;
   height: 100%; /* La imagen ocupará el 100% de la altura del contenedor */
   object-fit: cover; /* La imagen se redimensionará para cubrir todo el contenedor */
 }
@@ -212,46 +214,7 @@ blockquote p {
   display: inline;
 }
 
-/* Estilos de la galería */
-.gallery-wrap {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 70vh;
-}
 
-.item {
-  flex: 1;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transition: flex 0.8s ease;
-}
-
-.item:hover {
-  flex: 7;
-}
-
-.item-1 {
-  background-image: url('../img/imagen1.jpg');
-}
-
-.item-2 {
-  background-image: url('../img/imagen2.jpg');
-}
-
-.item-3 {
-  background-image: url('../img/imagen3.jpg');
-}
-
-.item-4 {
-  background-image: url('../img/imagen1.jpg');
-}
-
-.item-5 {
-  background-image: url('../img/imagen2.jpg');
-}
 
 /* Estilos de las imágenes de los entrenadores */
 .trainer-img {
@@ -294,6 +257,7 @@ blockquote p {
   backface-visibility: hidden;
   position: absolute;
   top: 0;
+  right: 0;
   left: 0;
 }
 
@@ -639,4 +603,27 @@ a {
 
 .text-white{
 color:#fff !important;
+}
+
+
+/* Slider testimosnios */
+.img-maestro {
+  width: 200px;
+}
+
+/* menu */
+@media (min-width: 992px)
+{
+  .navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: space-evenly;
+}
+}
+
+a.nav-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
 }
