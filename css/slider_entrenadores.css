@@ -1,0 +1,71 @@
+.testimonios-maestros_ppl {
+    position: relative;
+    top: 20%;
+    /* -webkit-box-shadow: -2px 10px 5px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px 10px 5px 7px rgba(0,0,0,0.5);
+    box-shadow: -2px 10px 5px 7px rgba(0,0,0,0.5); */
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.testimonios-maestros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: #f5f4f4;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.testimonios-maestros_img {
+    width: 40%;
+}
+.testimonios-maestros_img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.testimonios-maestros__textos {
+    width: 85%;
+}
+.testimonios-maestros__textos h3 {
+    color: #000;
+}
+.testimonios-maestros__textos p {
+    color: #000;
+}
+
+.testimonios-maestros--meritos {
+    width: 85%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f5f4f4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    border-radius: 0px 0px 10px 10px;
+}
+.testimonios-maestros--meritos  p {
+    color: #000;
+}
+
+@media (min-width: 768px) {
+    .testimonios-maestros {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .testimonios-maestros_img {
+        width: 15%;
+    }
+    .testimonios-maestros--merito {
+        width: 100%;
+    }
+}
